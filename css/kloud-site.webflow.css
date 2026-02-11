@@ -1,22 +1,22 @@
 :root {
-  --black: #090d06;
-  --grey-60: #979f90;
-  --white: #f1fbe8;
-  --accent: #a9ff5c;
-  --accent-opacity-25: #426027;
-  --accent-opacity-10: #1f2b15;
-  --accent-hover: #7fd136;
-  --accent-light: #e1ffc7;
-  --accent-dark: #356905;
+  --black: #0d0908;
+  --grey-60: #9f9790;
+  --white: #fbf1e8;
+  --accent: #ED1B24;
+  --accent-opacity-25: #451010;
+  --accent-opacity-10: #1f0d0b;
+  --accent-hover: #d01820;
+  --accent-light: #ffe2e3;
+  --accent-dark: #8b1015;
   --light-orange: #ffc295;
   --dark-orange: #602606;
   --light-yellow: #ffe27d;
   --dark-yellow: #564801;
-  --dark-green-1: #003800;
-  --dark-green-2: #002d00;
-  --accent-opacity-13: #243317;
-  --white-opacity-30: rgba(241, 251, 232, .3);
-  --accent-opacity-6: #131c0b;
+  --dark-green-1: #380000;
+  --dark-green-2: #2d0000;
+  --accent-opacity-13: #281010;
+  --white-opacity-30: rgba(251, 241, 232, .3);
+  --accent-opacity-6: #180c0b;
 }
 
 .w-layout-blockcontainer {
@@ -196,7 +196,7 @@ a {
 .btn-secondary {
   border: 1px solid var(--accent);
   cursor: pointer;
-  background-color: rgba(169, 255, 92, 0);
+  background-color: rgba(237, 27, 36, 0);
   border-radius: 12px;
   padding: 12px 20px;
   font-size: 14px;
@@ -749,7 +749,7 @@ a {
 .testimonials-linear {
   width: 100%;
   height: 400px;
-  background-image: linear-gradient(rgba(9, 13, 6, 0), #090d06);
+  background-image: linear-gradient(rgba(13, 9, 8, 0), #0d0908);
   position: absolute;
   top: auto;
   bottom: 0%;
@@ -900,11 +900,11 @@ a {
 }
 
 .form-input::-ms-input-placeholder {
-  color: rgba(241, 251, 232, .4);
+  color: rgba(251, 241, 232, .4);
 }
 
 .form-input::placeholder {
-  color: rgba(241, 251, 232, .4);
+  color: rgba(251, 241, 232, .4);
 }
 
 .form-input.is--last {
