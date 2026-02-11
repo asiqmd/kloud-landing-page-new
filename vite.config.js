@@ -8,6 +8,8 @@ export default defineConfig({
       input: {
         main: 'index.html',
         '404': '404.html',
+        projects: 'projects.html',
+        'project-nexapay': 'project-nexapay.html',
       },
     },
   },
